@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Flaticon CSS -->
+    <link rel=”stylesheet” href=”https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/-regular-rounded.css”>
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <i class="fas fa-bars"></i>
+            <img src="images/logo.png" alt="">
+        </div>
+        <div id="videoSearch">
+            <input type="text" placeholder="Search" id="video">
+            <span id="videoSearchBtn" onclick="videoSearch()"><i class="fas fa-search"></i></span>
+            <span class="microphone"><i class="fas fa-microphone"></i></span>
+        </div>
+        <div id="navIcons">
+            <i class="fas fa-video"></i>
+            <i class="fab fa-microsoft"></i>
+            <i class="fas fa-bell"></i>
+            <i class="fas fa-user"></i>
+        </div>
+    </div>
+
+    <div id="videoDisplay"></div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
